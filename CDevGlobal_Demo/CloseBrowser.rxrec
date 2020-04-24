@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9179fce1-84e4-482c-969f-9bf9ef589c42"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="CDevGlobal_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="8ebcc9ac-cbf3-4e17-acb2-559a788ce097">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b2ab276e-809d-4d9a-9332-135f838ab46e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="480311c7-89f4-4eb7-b5fd-d13f7837c236"
+	name="CDevGlobal_DemoRepository"
+	relativepath="CDevGlobal_DemoRepository.rxrep">
+		<codegen
+		classname="CDevGlobal_DemoRepository"
+		namespace="CDevGlobal_Demo">
+		</codegen>
+		<rootfolder
+		id="f6720719-64a7-45e7-b71a-f1aaf4b79e06"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

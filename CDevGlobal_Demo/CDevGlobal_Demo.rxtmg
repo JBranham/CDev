@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="CDevGlobal_Demo"
+      id="6161adcc-e591-4860-9b56-69861feb220a"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="CDevGlobal_Demo"
+      id="6161adcc-e591-4860-9b56-69861feb220a"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

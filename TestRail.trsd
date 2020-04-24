@@ -1,0 +1,106 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "b1ab6807-b7e1-4575-a233-f9df538ca5ea/cb65abdb-4161-4023-8db7-43c4745e0659",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b1ab6807-b7e1-4575-a233-f9df538ca5ea",
+      "Name": "CDevGlobal_Demo"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P26",
+    "Pid": null,
+    "Name": "CDevGlobal_Demo",
+    "BaseUri": "https://ranorexintegration.testrail.io/",
+    "ProjectSuiteMode": 3,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b1ab6807-b7e1-4575-a233-f9df538ca5ea",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "CDevGlobal_Demo"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "b1ab6807-b7e1-4575-a233-f9df538ca5ea/cb65abdb-4161-4023-8db7-43c4745e0659",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/b1ab6807-b7e1-4575-a233-f9df538ca5ea",
+        "Name": "CDevGlobal_Demo"
+      },
+      "Tr": {
+        "Id": "S29",
+        "Pid": "P26",
+        "Name": "CDevGlobal_Demo"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G43",
+        "Pid": "S29",
+        "Name": "CDevGlobal_Demo"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "cb65abdb-4161-4023-8db7-43c4745e0659/85e3f27f-cd3a-48e9-846c-80990725d7f1",
+        "Pid": "b1ab6807-b7e1-4575-a233-f9df538ca5ea/cb65abdb-4161-4023-8db7-43c4745e0659",
+        "Name": "AddUserToTable"
+      },
+      "Tr": {
+        "Id": "C70",
+        "Pid": "G43",
+        "Name": "AddUserToTable"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "cb65abdb-4161-4023-8db7-43c4745e0659/434e0ee8-948f-4964-9e1b-98d809746a50",
+        "Pid": "b1ab6807-b7e1-4575-a233-f9df538ca5ea/cb65abdb-4161-4023-8db7-43c4745e0659",
+        "Name": "EmptyByDefault"
+      },
+      "Tr": {
+        "Id": "C71",
+        "Pid": "G43",
+        "Name": "EmptyByDefault"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "cb65abdb-4161-4023-8db7-43c4745e0659/6edcdf41-c4b9-4f46-9db5-9f9488a02a97",
+        "Pid": "b1ab6807-b7e1-4575-a233-f9df538ca5ea/cb65abdb-4161-4023-8db7-43c4745e0659",
+        "Name": "Checking Default Values"
+      },
+      "Tr": {
+        "Id": "C72",
+        "Pid": "G43",
+        "Name": "Checking Default Values"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "cb65abdb-4161-4023-8db7-43c4745e0659/f0a656cf-b9c8-4b99-ae5a-a71e8243296a",
+        "Pid": "b1ab6807-b7e1-4575-a233-f9df538ca5ea/cb65abdb-4161-4023-8db7-43c4745e0659",
+        "Name": "NewTestCase"
+      },
+      "Tr": {
+        "Id": "C73",
+        "Pid": "G43",
+        "Name": "NewTestCase"
+      }
+    }
+  ]
+}

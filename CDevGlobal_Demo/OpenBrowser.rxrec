@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="803afdf3-f1f5-446e-b2c9-2e017ebe05c7"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="CDevGlobal_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com/web-testing-examples/vip/
+			</url>
+		</openwebsiterecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				update
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+	</recorditems>
+	<repository
+	id="480311c7-89f4-4eb7-b5fd-d13f7837c236"
+	name="CDevGlobal_DemoRepository"
+	relativepath="CDevGlobal_DemoRepository.rxrep">
+		<codegen
+		classname="CDevGlobal_DemoRepository"
+		namespace="CDevGlobal_Demo">
+		</codegen>
+		<rootfolder
+		id="f6720719-64a7-45e7-b71a-f1aaf4b79e06"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
